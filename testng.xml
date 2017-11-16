@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<parameter name="baseUrl" value="https://app-test.totango.com/api/"></parameter>
+	<test name="Test">
+		<parameter name="accountNum" value="9092"></parameter>
+		<parameter name="paying" value="paying"></parameter>
+		<classes>
+			<class name="TotangoTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
